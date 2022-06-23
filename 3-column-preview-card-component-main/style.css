@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo',sans-serif;
+    
+}
+
+.container{
+max-height: 1200px;
+
+
+width: 95%;
+text-align: center;
+background-color: #fff;
+}
+.card{
+    border-radius: 50px;
+     position: absolute;  
+      width: 850px;
+      height: 450px;
+      top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+border-radius: 10px;
+border: 1px solid #fff;
+
+overflow: hidden;
+    display: flex;
+    color: #fff;
+     
+}
+
+.card__items__box{
+    background-color: #ffa751;
+ 
+}
+.card__items__box1{
+   
+    background-color: teal;
+}
+.card__items__box2{ 
+    background-color: rgb(38, 80, 80);
+}
+.card__img{
+    margin-top: 40px; 
+    text-align: start;
+  
+    margin-left: 35px; 
+   
+    
+}
+img{
+   
+    width: 62px;
+    height: 40px;
+}
+.card__title{
+   
+font-size: 30px;
+   line-height: 20px; 
+    padding-top: 30px;
+    text-align: left;
+    margin-left: 35px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+.card__desc{
+  margin: 50px;
+     margin-top: 20px;
+     width: 200px; 
+ 
+text-align: left;
+line-height: 1.5;
+text-align: left;
+margin-left: 35px;
+opacity: 0.5; 
+  
+}
+
+.btn{
+    width: 50%;
+    padding: 13px;
+    margin-left: 35px;
+    margin-top: 65px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+.btn__color1{
+    color: #ffa751;
+    font-size: 11px;
+    font-weight: bold;
+   
+}
+.btn__color2{
+color: teal;
+    font-size: 11px;
+    font-weight: bold;
+}
+.btn__color3{
+    color: rgb(38, 80, 80);
+    font-size: 11px;
+    font-weight: bold;
+   
+}
